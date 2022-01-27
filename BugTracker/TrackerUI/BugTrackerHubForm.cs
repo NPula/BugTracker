@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class LoginForm : Form
+    public partial class BugTrackerHubForm : Form
     {
-        public LoginForm()
+        public BugTrackerHubForm()
         {
             InitializeComponent();
-        }
-
-        private void headerLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
